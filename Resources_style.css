@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: local('GT Walsheim Pro Medium'), local('GT-Walsheim-Pro-Medium'),
+        url('../font/GTWalsheimPro-Medium.woff2') format('woff2'),
+        url('../font/GTWalsheimPro-Medium.woff') format('woff'),
+        url('../font/GTWalsheimPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    color: white !important;
+    font-family: GT Walsheim Pro;
+    font-style: normal;
+}
+
+.head {
+    background: linear-gradient(93.98deg, #131313 -20.24%, #162949 100%) !important;
+}
+
+nav {
+    background: transparent !important;
+    padding: 2vh 8vw !important;
+}
+
+a {
+    color: white;
+}
+
+.top {
+    text-align: center;
+    padding: 10vh 25vw;
+}
+
+.content {
+    padding-top: 5vh;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
